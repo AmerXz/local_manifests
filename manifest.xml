@@ -8,7 +8,7 @@
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="eleven"/>
 	    <remote name="Eureka-Kernel"
-                fetch="https://github.com/eurekadevelopment/Eureka-Kernel.git"
+                fetch="https://github.com/eurekadevelopment/"
 		revision="R9.6_rom"/>
 
         <!-- Devices -->
