@@ -8,8 +8,8 @@
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="eleven"/>
 	    <remote name="Eureka-Kernel"
-                fetch="https://github.com/eurekadevelopment/"
-		revision="R9.6_rom"/>
+                fetch="https://github.com/eurekadevelopment"
+		revision="R15-Next"/>
 
         <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
