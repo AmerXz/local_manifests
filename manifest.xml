@@ -10,14 +10,17 @@
 	    <remote name="Eureka-Kernel"
                 fetch="https://github.com/eurekadevelopment"
 		revision="R15-Next"/>
+	    <remote name="AmerXz"
+                fetch="https://github.com/AmerXz"
+		revision="patch-1"/>
 
         <!-- Devices -->
-	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
-	<project path="device/samsung/a20" name="device_samsung_a20" remote="royna"/>
-	<project path="device/samsung/a20e" name="device_samsung_a20e" remote="royna"/>
-	<project path="device/samsung/a30" name="device_samsung_a30" remote="royna"/>
-	<project path="device/samsung/a30s" name="device_samsung_a30s" remote="royna"/>
-	<project path="device/samsung/a40" name="device_samsung_a40" remote="royna"/>
+	<project path="device/samsung/a10" name="device_samsung_a10" remote="AmerXz"/>
+	<project path="device/samsung/a20" name="device_samsung_a20" remote="AmerXz"/>
+	<project path="device/samsung/a20e" name="device_samsung_a20e" remote="AmerXz"/>
+	<project path="device/samsung/a30" name="device_samsung_a30" remote="AmerXz"/>
+	<project path="device/samsung/a30s" name="device_samsung_a30s" remote="AmerXz"/>
+	<project path="device/samsung/a40" name="device_samsung_a40" remote="AmerXz"/>
 	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="royna"/>
 
         <!-- Kernel -->
