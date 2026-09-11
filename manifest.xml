@@ -7,9 +7,6 @@
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="eleven"/>
-	    <remote name="iamrh"
-                fetch="https://github.com/iamrh1819"
-		revision="EurekaV2"/>
 
         <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
