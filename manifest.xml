@@ -7,8 +7,8 @@
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="eleven"/>
-	    <remote name="iamrh"
-                fetch="https://github.com/iamrh1819"
+	    <remote name="AmerXz"
+                fetch="https://github.com/AmerXz"
 		revision="EurekaV2"/>
 
         <!-- Devices -->
@@ -21,7 +21,7 @@
 	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="royna"/>
 
         <!-- Kernel -->
-	<project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" recurse_submodules="true" remote="iamrh" revision="EurekaV2" />
+	<project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" recurse_submodules="true" remote="AmerXz" revision="EurekaV2" />
         <!-- Vendors -->
 	<project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="royna"/>
 	<project path="vendor/samsung/a20" name="vendor_samsung_a20" remote="royna"/>
