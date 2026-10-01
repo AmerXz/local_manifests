@@ -9,19 +9,19 @@
 		revision="eleven"/>
 	    <remote name="AmerXz"
                 fetch="https://github.com/AmerXz"
-		revision="EurekaV2"/>
+		revision="patch-1"/>
 
         <!-- Devices -->
-	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
+	<project path="device/samsung/a10" name="device_samsung_a10" remote="AmerXz" revision="eleven"/>
 	<project path="device/samsung/a20" name="device_samsung_a20" remote="royna"/>
 	<project path="device/samsung/a20e" name="device_samsung_a20e" remote="royna"/>
 	<project path="device/samsung/a30" name="device_samsung_a30" remote="royna"/>
 	<project path="device/samsung/a30s" name="device_samsung_a30s" remote="royna"/>
 	<project path="device/samsung/a40" name="device_samsung_a40" remote="royna"/>
-	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="royna"/>
+	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="AmerXz" revision="eleven"/>
 
         <!-- Kernel -->
-	<project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" recurse_submodules="true" remote="AmerXz" revision="EurekaV2" />
+	<project path="kernel/samsung/exynos7885" name="Eureka-Kernel" recurse_submodules="true" remote="AmerXz" revision="patch-1" />
         <!-- Vendors -->
 	<project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="royna"/>
 	<project path="vendor/samsung/a20" name="vendor_samsung_a20" remote="royna"/>
